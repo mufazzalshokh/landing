@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+.tel {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.hometxt {
+    margin-top: 7rem;
+}
+
+.bcolor {
+    color: #00ad88;
+}
+
+.homebtn {
+    color: black;
+    font-size: 16px;
+    line-height: 1.55;
+    font-weight: 600;
+    border-width: 1px;
+    border-radius: 30px;
+    background-color: #00ad88;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    padding: 2% 5%;
+    margin-top: 1rem;
+}
+
+.img1 {
+    width: 400px;
+}
+
+.feature-icon > img {
+    width: 40%;
+}
+
+
+@media only screen and (max-width: 360px) {
+    .butn > button {
+        padding: 10px 20px !important;
+    }
+}
+
+@media only screen and (max-width: 573px) {
+    .pict {
+        position: relative;
+        bottom: 530px;
+        width: 300px;
+    }
+
+    .img1 {
+        width: 310px;
+    }
+
+    .hometxt {
+        position: relative;
+        top: 420px;
+    }
+
+    .butn > buttton {
+        padding: 25px;
+    }
+}
+
+@media (min-width: 404px) and (max-width: 540px) {
+    .pict {
+        position: relative;
+        bottom: 500px;
+        width: 10px;
+    }
+
+    .hometxt {
+        position: relative;
+        top: 500px;
+    }
+
+    .butn > buttton {
+        padding: 25px;
+    }
+
+}
+
+.bg-color {
+    background-color: #e9ecf4;
+}
+
+.bcolor1 {
+    color: #00ad88;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.card-body {
+    color: black;
+}
+
+.accordion-item {
+    border: none;
+}
+
+.bi-coin, .bi-gear, .bi-graph-up-arrow, .bi-wallet2 {
+    color: yellow;
+    font-size: 60px;
+}
+
+.partimg {
+    width: 100%;
+}
+
+/*conatact*/
+.form-grou > input, textarea {
+    border: none;
+    outline: none;
+    padding: 15px;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 16px;
+    background-color: #fefefe;
+    border-radius: 25px;
+}
+
+textarea {
+    height: 12em;
+}
+
+.form-grou {
+    border: 1px solid £fefefe;
+    margin: 10px 0px;
+    padding: 0px;
+    background-color: #fefefe;
+    border-radius: 12px;
+    border: none;
+
+}
+
+
+.btnsize {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.btnf {
+    background-color: #038569;
+    width: 100%;
+    padding: 0.7em 0;
+    border: 0;
+    border-radius: 8px;
+    margin-bottom: 55px;
+}
+
+.textg {
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+}
+
+.collig {
+    color: gray;
+    font-family: sans-serif;
+}
+
+.bi-house, .bi-telephone, .bi-envelope {
+    position: relative;
+    bottom: 1px;
+    margin-right: 5px;
+}
+
+.manz {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.footer {
+    background-color: rgb(0, 0, 0, 0.05);
+}
+
+a {
+    text-decoration: none;
+}
+
+.bi-telephone, .bi-house, .bi-envelope {
+    color: yellow;
+}
+
+.network {
+    background-color: #038569;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.bi-telegram, .bi-youtube, .bi-tiktok, .bi-instagram {
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+}
+
+.hovr {
+    color: gray;
+}
+
+.hovr:hover {
+    color: white;
+    cursor: pointer;
+}

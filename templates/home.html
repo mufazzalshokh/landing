@@ -1,0 +1,305 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Бизнеси даволаш курси Sherzod BEKNAZAROV BIZNEZ traner">
+    <meta name="Sherzod BEKNAZAROV" content="Sherzod BEKNAZAROV BIZNEZ traner">
+    <meta name="keywords"
+          content="mfaktor, ibragim gulyamov, top manager,Sherzod BEKNAZAROV, BEKNAZAROV, Sherzod, saidmurod davlatov">
+    <meta property="og:url" content="https://sherzodbeknazarov.uz">
+    <meta property="og:title" content="sherzod beknazarov rasmiy sayti">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="sherzod beknazarov">
+    <link rel="canonical" href="https://sherzodbeknazarov.uz">
+
+    <title>Sherzod Beknazarov rasmiy sayti</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="icon" type="image/png"
+          href="data:image/png;base64,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"/>
+
+</head>
+
+<body>
+<div class="container">
+    <div class="row mt-3">
+        <div class="col-sm-9 text-center d-flex justify-content-start">
+            <h4 class="text-white">SHERZOD <span style="color:#00ad88">BEKNAZAROV</span> | BIZNEZNI DAVLOASH KURSI</h4>
+        </div>
+        <div class="col-sm-3 text-center f-left"><a href='tel:+998991234567' class="tel">+998(71)4561000</a></div>
+        <div class="col-sm-6 hometxt "><h3>1 ойлик<br> <span class="bcolor">Бизнесни даволаш курси</span></h3>
+            <h4>- Қандай қилиб савдони бир неча баробар ошириш мумкин?</h4><br>
+            <h4>- Кичик бўлиб туриб катта компания билан рақобат қилиш мумкинми?</h4><br>
+            <h4 class='mt-3'>Рўйхатдан ўтинг ва 20% ЧЕГИРМА билан курсда қатнашинг! Чегирма 30-октябргача!</h4>
+            <div class='w-100'>
+                <div class="offset-3 butn">
+                    <button class="homebtn"><a href="#contact" style="color: black;">Рўйхатдан ўтиш</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-5 offset-1 justify-content-end pict">
+            <img class="img1" src="{% static 'image/land1.png' %}">
+        </div>
+    </div>
+</div>
+<!-- <hr> -->
+<div class="container text-center lefttxtx">
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+            <div class="feature-icon">
+                <img src="{% static 'image/land2.png' %}">
+            </div>
+            <h2>Featured title</h2>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
+                probably just keep going until we run out of words.</p>
+        </div>
+
+        <div class="feature col">
+            <div class="feature-icon">
+                <img src="{% static 'image/land3.png' %}">
+            </div>
+            <h2>Featured title</h2>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
+                probably just keep going until we run out of words.</p>
+        </div>
+
+        <div class="feature col">
+            <div class="feature-icon">
+                <img src="{% static 'image/land4.png' %}">
+            </div>
+            <h2>Featured title</h2>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
+                probably just keep going until we run out of words.</p>
+        </div>
+    </div>
+
+    <div class="row mb-5 pb-3">
+        <h1 class="col-12 bcolor1">Курс кимлар учун?
+        </h1>
+        <div class="mt-5"></div>
+        <div class="col-md-3">
+            <i class="bi bi-coin"></i>
+            <h4>Ўрта ва юқори бизнес эгалари учун</h4>
+            <p>Ўрта ва юқори бизнес билан шуғулланадиган бизнес эгалари учун</p>
+        </div>
+        <div class="col-md-3">
+            <i class="bi bi-gear"></i>
+            <h4>Бизнесни тизимлаштирмоқчи бўлганлар учун</h4>
+            <p>Ўрта ва юқори бизнес билан шуғулланадиган бизнес эгалари учун</p>
+        </div>
+        <div class="col-md-3">
+            <i class="bi bi-graph-up-arrow"></i>
+            <h4>Бизнесини катталаштирмоқчи бўлган тадбиркорлар учун</h4>
+            <p>Ўрта ва юқори бизнес билан шуғулланадиган бизнес эгалари учун</p>
+        </div>
+        <div class="col-md-3">
+            <i class="bi bi-wallet2"></i>
+            <h4>Сотув ва мижозлар билан муаммоси борлар учун</h4>
+
+            <p>Ўрта ва юқори бизнес билан шуғулланадиган бизнес эгалари учун</p>
+        </div>
+    </div>
+</div>
+
+</div>
+</div>
+
+<div class="bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center my-4 p-4"><h1 class="bcolor1">Мижозларимиз
+            </h1>
+                <p style="color: black; font-size: large;" class="mt-4">Курсларимизда турли соҳа эгалари қатнашиб, <br>ўз
+                    бизнесларини янги босқичга олиб чиқишга эришишди</p>
+
+            </div>
+            <div class="col-10 row offset-1">
+                <div class="col-md-2 col-6"><img class="partimg" src="img/_-4.webp"></div>
+                <div class="col-md-2 col-6"><img class="partimg" src="img/123.webp"></div>
+                <div class="col-md-2 col-6"><img class="partimg" src="img/3213213.webp"></div>
+                <div class="col-md-2 col-6"><img class="partimg" src="img/333111.webp"></div>
+                <div class="col-md-2 col-6"><img class="partimg" src="img/_-6.webp"></div>
+                <div class="col-md-2 col-6"><img class="partimg" src="img/3333.png"></div>
+                <div class="col-md-2 col-6"><img class="partimg" src="img/5.webp"></div>
+                <div class="col-md-2 col-6"><img class="partimg" src="img/_-11.webp"></div>
+                <div class="col-md-2 col-6"><img class="partimg" src="img/_-4.webp"></div>
+                <div class="col-md-2 col-6"><img class="partimg" src="img/_-5.webp"></div>
+                <div class="col-md-2 col-6"><img class="partimg" src="img/_-6.webp"></div>
+                <div class="col-md-2 col-6"><img class="partimg" src="img/PG.webp"></div>
+            </div>
+            <!--  -->
+            <div class="col-12 text-center bcolor1 my-5 py-3 pt-5"><h1>Қатнашчилар фикрлари
+            </h1></div>
+            <div class="col-sm-6">
+                <iframe class='youtube' width="100%" height="320" src="https://www.youtube.com/embed/3R6W84cDFpM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6">
+                <iframe width="100%" class='youtube' height="320" src="https://www.youtube.com/embed/3R6W84cDFpM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6">
+                <iframe width="100%" class='youtube' height="320" src="https://www.youtube.com/embed/3uSRdbWyDvI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6 mb-5">
+                <iframe width="100%" class='youtube' height="320" src="https://www.youtube.com/embed/3uSRdbWyDvI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center bcolor1"><h1>Курс дастури
+            </h1></div>
+        </div>
+    </div>
+    <div class="container mb-5 pb-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-8">
+                <div class="m-4">
+                    <div class="accordion" id="myAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne">1. What itands for Cascading Style Sheet. CSS
+                                    allows you to specify varis HTML?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                                <div class="card-body">
+                                    <p>HTML stands for HyperText Markup Language. HTML is the standard markup language
+                                        for describing the structure of web pages. <a
+                                                href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn
+                                            more.</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo">3. What is Ctands for Cascading Style Sheet. CSS
+                                    allows you to specify variSS?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                                <div class="card-body">
+                                    <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style
+                                        properties for a given HTML element such as colors, backgrounds, fonts etc. <a
+                                                href="https://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn
+                                            more.</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree">3. What is CSS?tands for Cascading Style Sheet.
+                                    CSS allows you to specify vari
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                                <div class="card-body">
+                                    <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style
+                                        properties for a given HTML element such as colors, backgrounds, fonts etc. <a
+                                                href="https://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn
+                                            more.</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--contact-->
+<div class="container mt-5" id="contact">
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-md-10 col-12">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-xl-12 mb-4 text-center">
+                    <h1 class="bcolor1">Рўйхатдан ўтинг<br>
+                        20% Чегирмага эга бўлинг!</h1>
+                    <i>Рўйхатдан ўтганлар 20% чегирмага эга бўлади, чегирма эса тобора камайиб боради!</i>
+
+                </div>
+                <div class="col-md-12 col-lg-12 col-xl-6">
+                    <form>
+                        <div class="form-grou">
+                            <input class="form-contro" type="text" placeholder="Исмингиз?">
+                        </div>
+                        <div class="form-grou">
+                            <input class="form-contro" type="text" placeholder="Бизнесингиз тури?
+                              ">
+                        </div>
+                        <div class="form-grou">
+                            <input class="form-contro" type="text" maxlength="13" placeholder="Телефон рақамингиз?
+                              ">
+                        </div>
+                        <div class="form-grou">
+                            <textarea class="form-contro" placeholder="Изон..."></textarea>
+                        </div>
+                    </form>
+                    <button class="btnf" type="submit"><span class="btnsize">Рўйхатдан ўтиш</span></button>
+                </div>
+
+                <div class="col-md-12 col-lg-12 col-xl-6 mt-2">
+                    <div class="col-md-12 col-lg-12 col-xl-12">
+                        <iframe width="100%" height="280" style="border:0" loading="lazy" allowfullscreen
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.0082359419284!2d69.2041284913705!3d41.35217471128878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8d4a0dce8309%3A0x43e0a115d4b09d1a!2sBobir%20Akilkhanov%20Tech%20Academy!5e0!3m2!1sru!2s!4v1604408096451!5m2!1sru!2s">
+                        </iframe>
+                        <div class="mt-3">
+                            <p>
+                                <span class="collig">Manzil:</span> <span class='manz'>Toshkent shahar Olmazor tumani Alisher Navoiy ko'chasi</span>
+                            </p>
+                            <p>
+                                <span class="collig">Phone :</span><a class="text-white" href="tel:+998761234567">+998(76)
+                                1234567</a></p>
+                            <p>
+                                <span class="collig">Email: </span><a class="text-white" href="mailto:Lorem@gmail.com">Loreden@gmail.com</a>
+                            </p>
+                            <div class="d-flex justify-content-center">
+                                <i class="network bi bi-telegram"></i>
+                                <i class="network bi bi-youtube"></i>
+                                <i class="network bi bi-instagram"></i>
+                                <i class="network bi bi-tiktok"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer w-100 py-3 mt-4 text-center bg-black text-white">
+    <div class="container">
+        <span class="text-center"><a href="https://t.me/Alpha4Groupbot" class="hovr">Made on Alpha4</a></span>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+</body>
+</html>
