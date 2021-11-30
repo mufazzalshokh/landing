@@ -38,11 +38,11 @@ body {
 }
 
 .img1 {
-    width: 400px;
+    width: 370px; height: 516px;
 }
 
 .feature-icon > img {
-    width: 40%;
+    width: 95px;
 }
 
 
@@ -95,7 +95,7 @@ body {
     background-color: #e9ecf4;
 }
 
-.bcolor1 {
+.bg-color1 {
     color: #00ad88;
     font-weight: bold;
     margin-top: 2rem;
@@ -118,8 +118,8 @@ body {
     width: 100%;
 }
 
-/*conatact*/
-.form-grou > input, textarea {
+/*contact*/
+.form-group > input, textarea {
     border: none;
     outline: none;
     padding: 15px;
@@ -134,7 +134,7 @@ textarea {
     height: 12em;
 }
 
-.form-grou {
+.form-group {
     border: 1px solid £fefefe;
     margin: 10px 0px;
     padding: 0px;
@@ -176,7 +176,7 @@ textarea {
     margin-right: 5px;
 }
 
-.manz {
+.address {
     font-family: 'Poppins', sans-serif;
 }
 
